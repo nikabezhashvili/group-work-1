@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #34353E;
+    color: #44C496;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lobster;
+}
+
+/* მთავარი div-ის სტილი */
+#par{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 5.5rem;
+    margin-bottom: 75px;
+}
+
+/* მოთამაშეების სახელის და კამათლის სტილი */
+#dice{
+    display: flex;
+    gap: 55px;
+    margin-bottom: 50px;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+/* ღილაკების სტილი */
+
+#btns{
+    display: flex;
+    gap: 55px;
+}
+
+
+button{
+    height: 40px;
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: #A09999;
+    
+}
+
+/* რესპონსივები */
+
+/* ტელეფონები */
+@media (min-width: 320px){
+    h1{
+        font-size: 2.75rem;
+        margin-bottom: 40px;
+    }
+    #dice{
+        gap: 15px;
+    }
+    #img1{
+        width: 140px;
+    }
+    #img2{
+        width: 140px;
+    }
+
+    #btns{
+        gap: 15px;
+    }
+    button{
+        width: 140px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 375px){ 
+    h1{
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    #dice{
+        gap: 30px;
+    }
+
+    #btns{
+        gap: 30px;
+    }
+}
+
+@media (min-width: 425px){
+    h1{
+        font-size: 3.25rem;
+        margin-bottom: 60px;
+    }
+    #dice{
+        gap: 30px;
+    }
+    #img1{
+        width: 150px;
+    }
+    #img2{
+        width: 150px;
+    }
+    button{
+        width: 150px;
+    }
+}
+
+/* პლანშეტებო */
+@media (min-width: 768px){
+    h1{
+        font-size: 3.75rem;
+        margin-bottom: 75px;
+    }
+    #dice{
+        gap: 50px;
+    }
+    #btns{
+        gap: 50px;
+    }
+    button{
+        width: 150px;
+    }
+} 
+
+/* პატარა ლეპტოპები */
+@media (min-width: 1024px){
+    h1{
+        font-size: 4.5rem;
+    }
+
+    #dice{
+        gap: 55px;
+    }
+
+    #img1{
+        width: 170px;
+    }
+    #img2{
+        width: 170px;
+    }
+    #btns{
+        gap: 55px;
+    }
+    button{
+        width: 170px;
+    }
+}
+
+/* დიდი ლეპტოპები / desktop */
+@media (min-width: 1440px){
+    h1{
+        font-size: 5rem;
+    }
+    #img1{
+        width: 200px;
+    }
+    #img2{
+        width: 200px;
+    }
+    button{
+        width: 200px;
+    }
+}
+
+/* ძალიან დიდი მონიტორები*/
+@media (min-width: 2560px) {
+    h1{
+        font-size: 6.5rem;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    #img1{
+        width: 250px;
+    }
+    #img2{
+        width: 250px;
+    }
+    button{
+        width: 250px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+} 
