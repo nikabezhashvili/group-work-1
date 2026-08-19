@@ -7,8 +7,9 @@
 
 body{
     background-image: url(./images/bg_photo.png);
-    background-size: auto auto;
+    background-size: 1440px 800px;
     background-repeat: no-repeat;
+    background-position: center;
     color: #44C496;
     height: 100vh;
     display: flex;
