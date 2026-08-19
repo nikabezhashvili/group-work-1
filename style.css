@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #34353E;
+    background-image: url(./images/bg_photo.png);
+    background-size: cover;
     color: #44C496;
     height: 100vh;
     display: flex;
